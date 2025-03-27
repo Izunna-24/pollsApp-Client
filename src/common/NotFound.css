@@ -1,0 +1,41 @@
+.page-not-found {
+    max-width: 500px;
+    margin: 50px auto 0;
+    padding: 40px;
+    border: 1px solid #c8c8c8;
+    text-align: center;
+    border-radius: 8px; /* Added rounded corners for a modern look */
+    background-color: #fff; /* Ensuring contrast */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Added slight shadow */
+}
+
+.page-not-found .title {
+    font-size: 50px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    font-weight: bold; /* Added emphasis */
+    color: #333; /* Improved text contrast */
+}
+
+.page-not-found .desc {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #666; /* Softer text color */
+}
+
+.go-back-btn {
+    min-width: 160px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: #1890ff; /* Ant Design blue */
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.go-back-btn:hover {
+    background-color: #40a9ff; /* Lighter blue on hover */
+}

@@ -1,0 +1,75 @@
+.new-poll-container {
+    max-width: 520px;
+    margin: 40px auto 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.create-poll-form-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background-color: #1890ff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.create-poll-form-button:hover {
+    background-color: #40a9ff;
+}
+
+.create-poll-form-button:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.dynamic-delete-button {
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+    font-size: 24px;
+    color: #999;
+    transition: color 0.3s ease;
+}
+
+.dynamic-delete-button:hover {
+    color: #777;
+}
+
+.dynamic-delete-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+.optional-choice {
+    width: calc(100% - 35px);
+    margin-right: 8px;
+}
+
+.poll-form-row {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.poll-form-row input,
+.poll-form-row textarea {
+    margin-bottom: 4px;
+    padding: 8px;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    transition: border 0.3s ease;
+}
+
+.poll-form-row input:focus,
+.poll-form-row textarea:focus {
+    border-color: #1890ff;
+    outline: none;
+    box-shadow: 0 0 4px rgba(24, 144, 255, 0.5);
+}
